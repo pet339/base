@@ -9,7 +9,7 @@ public class TachographTest {
 
     @Before
     public void before() {
-        t = new TrainTachographImpl("1", "1", "1");
+        t = new TrainTachographImpl("1", "1", 1);
     }
 
     @Test

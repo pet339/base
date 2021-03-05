@@ -4,9 +4,9 @@ import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
 
 public class TrainTachographImpl {
-    Table<String, String, String> tachographTable = HashBasedTable.create();
+    Table<String, String, Integer> tachographTable =  HashBasedTable.create();
 
-    public TrainTachographImpl(String currentTime, String joystickPosition, String referenceSpeed) {
+    public TrainTachographImpl(String currentTime, String joystickPosition, Integer referenceSpeed) {
         tachographTable.put(currentTime, joystickPosition, referenceSpeed);
     }
 }
