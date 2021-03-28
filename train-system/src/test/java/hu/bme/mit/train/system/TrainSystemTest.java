@@ -52,7 +52,8 @@ public class TrainSystemTest {
 
 	@Test
 	public void OneNewJUnitTest(){
-		Assert.assertEquals(0,0);
+		int expected = 0;
+		Assert.assertEquals(expected,0);
 	}
 
 	
